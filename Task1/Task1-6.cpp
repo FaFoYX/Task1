@@ -194,7 +194,7 @@ void feature_set_matching(core::ByteImage::Ptr image1, core::ByteImage::Ptr imag
     core::image::save_file(match_image, output_filename);
 }
 
-int main(int argc, char** argv)
+int main6(int argc, char** argv)
 {
     if (argc < 3)
     {

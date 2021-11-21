@@ -46,8 +46,8 @@
 #define MVEI_FILE_SIGNATURE_LEN 11
 #define MVEI_MAX_PIXEL_AMOUNT (16384 * 16384) /* 2^28 */
 
-CORE_NAMESPACE_BEGIN
-CORE_IMAGE_NAMESPACE_BEGIN
+namespace core {
+    namespace image {
 
 /*
  * ------------------------ Loading and Saving -----------------------
@@ -1146,6 +1146,6 @@ save_mvei_file (ImageBase::ConstPtr image, std::string const& filename)
         throw util::FileException(filename, std::strerror(errno));
 }
 
-CORE_IMAGE_NAMESPACE_END
-CORE_NAMESPACE_END
+}
+}
 

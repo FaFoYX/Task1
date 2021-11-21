@@ -63,5 +63,53 @@
     <ClCompile Include="util\file_system.cc">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Task2-1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2-3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\ba_linear_solver.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2-2_kneip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\bundle_adjustment.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2-2_ransac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\ransac_pose_p3p.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\pose_p3p.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2-4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2-5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\fundamental.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\camera_database.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\triangulate.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\extract_focal_length.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\image_exif.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfm\ransac_fundamental.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

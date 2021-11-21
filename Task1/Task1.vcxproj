@@ -27,6 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="core\image_exif.cc" />
     <ClCompile Include="core\image_io.cc" />
     <ClCompile Include="core\image_tools.cc" />
     <ClCompile Include="examples\task1\visualizer.cc" />
@@ -34,13 +35,28 @@
     <ClCompile Include="features\nearest_neighbor.cc" />
     <ClCompile Include="features\sift.cc" />
     <ClCompile Include="features\surf.cc" />
+    <ClCompile Include="sfm\ba_linear_solver.cc" />
+    <ClCompile Include="sfm\bundle_adjustment.cc" />
+    <ClCompile Include="sfm\camera_database.cc" />
+    <ClCompile Include="sfm\extract_focal_length.cc" />
     <ClCompile Include="sfm\feature_set.cc" />
+    <ClCompile Include="sfm\fundamental.cc" />
+    <ClCompile Include="sfm\pose_p3p.cc" />
+    <ClCompile Include="sfm\ransac_fundamental.cc" />
+    <ClCompile Include="sfm\ransac_pose_p3p.cc" />
+    <ClCompile Include="sfm\triangulate.cc" />
     <ClCompile Include="Task1-4.cpp" />
     <ClCompile Include="Task1-3.cpp" />
     <ClCompile Include="Task1-2.cpp" />
     <ClCompile Include="Task1-1.cpp" />
     <ClCompile Include="Task1-5.cpp" />
     <ClCompile Include="Task1-6.cpp" />
+    <ClCompile Include="Task2-2_ransac.cpp" />
+    <ClCompile Include="Task2-2_kneip.cpp" />
+    <ClCompile Include="Task2-5.cpp" />
+    <ClCompile Include="Task2-4.cpp" />
+    <ClCompile Include="Task2-3.cpp" />
+    <ClCompile Include="Task2-1.cpp" />
     <ClCompile Include="util\file_system.cc" />
     <ClCompile Include="Task1-7.cpp" />
   </ItemGroup>
